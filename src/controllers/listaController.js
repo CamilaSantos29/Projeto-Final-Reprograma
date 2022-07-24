@@ -1,33 +1,33 @@
-const lista = require ("../models/lista.js");
+const lista = require ("../models/lista");
 const fs = require ("fs");
 
 const getAllLista = (req, res) => {
-  livros.find((err, livros) => {
-    res.status(200).json(livros);
+  lista.find((err, listas) => {
+    res.status(200).json(listas);
   })  
 };
 
 const getLista = (req, res) => {
   const id = req.params.id;
 
-  livros.findById(id, (err, livros) => {
+  lista.findById(id, (err, lista) => {
     if(err) {
       res.status(400).send({message: `${err.message} - id da lista não encontrado`})
     } else {
-      res.status(200).send(livros);
+      res.status(200).send(lista);
     }
   })
 }
 
 
 const createItem =  (req, res) => {
-  let livro = new livros(req.body);
+  let listaMusica = new lista(req.body);
 
-  livro.save((err) => {
+  listaMusica.save((err) => {
     if(err) {
-      res.status(500).send({message: `${err.message} - falha ao cadastrar item`})
+      res.status(500).send({message: `${err.message} - falha ao cadastrar musica`})
     } else {
-      res.status(201).send(livro.toJSON())
+      res.status(201).send(listaMusica.toJSON())
     }
   })
 };
@@ -36,9 +36,9 @@ const createItem =  (req, res) => {
 const updateLista =  (req, res) => {
   const id = req.params.id;
 
-  livros.findByIdAndUpdate(id, {$set: req.body}, (err) => {
+  lista.findByIdAndUpdate(id, {$set: req.body}, (err) => {
     if(!err) {
-      res.status(200).send({message:'Livro atualizado com sucesso'})
+      res.status(200).send({message:'Item da lista atualizado com sucesso'})
     } else {
       res.status(500).send({message: err.message})
     }
@@ -48,7 +48,7 @@ const updateLista =  (req, res) => {
 const deleteLista =  (req, res) => {
   const id = req.params.id;
 
-  livros.findByIdAndDelete(id, (err) => {
+  lista.findByIdAndDelete(id, (err) => {
     if(!err) {
       res.status(200).send({message:'Item da lista deletado com sucesso'})
     } else {

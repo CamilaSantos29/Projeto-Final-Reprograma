@@ -11,7 +11,7 @@ const swaggerUi = require("swagger-ui-express");
 app.use(express.json());
 app.use(cors());
 app.use("/", index);
-app.use("/lista", lista);
+app.use("/", lista);
 
 app.use("/minha-documentação", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 mongoose.connect()
