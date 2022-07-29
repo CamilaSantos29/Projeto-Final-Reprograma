@@ -1,9 +1,9 @@
  ##
-![todas em tech](https://user-images.githubusercontent.com/88860081/181814231-6ef93baf-924a-4af4-b786-437dde7d9191.png)
+![todas em tech](https://user-images.githubusercontent.com/88860081/181814231-6ef93baf-924a-4af4-b786-437dde7d9191.png=100x20)
 
 # “Projeto final Reprograma – Back-end : Músicas que inspiram"
 
-<p> Esse projeto visa demonstrar todo o conhecimento adquirido durante o curso da Reprograma com foco em Back-end (Node.js), assim como a capacidade criar uma API- CRUD com arquitetura MVC, acrescentando teste unitário em Jes. </p>
+<p> Esse projeto visa demonstrar todo o conhecimento adquirido durante o curso da Reprograma com foco em Back-end (Node.js), assim como a capacidade criar uma API- CRUD com arquitetura MVC, acrescentando teste unitário em Jest. </p>
 
 
 # 🚀 Começando
