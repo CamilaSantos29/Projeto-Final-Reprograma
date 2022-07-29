@@ -20,21 +20,9 @@
             "description": "OK"
           }
         }
-      },
-      "post": {
-        "description": "",
-        "parameters": [],
-        "responses": {
-          "201": {
-            "description": "Created"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
       }
     },
-    "/all": {
+    "/allMusics": {
       "get": {
         "description": "",
         "parameters": [],
@@ -64,7 +52,23 @@
             "description": "Bad Request"
           }
         }
-      },
+      }
+    },
+    "/createmusic": {
+      "post": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/updatemusic/{id}": {
       "put": {
         "description": "",
         "parameters": [
@@ -83,7 +87,9 @@
             "description": "Internal Server Error"
           }
         }
-      },
+      }
+    },
+    "/deletemusic/{id}": {
       "delete": {
         "description": "",
         "parameters": [
