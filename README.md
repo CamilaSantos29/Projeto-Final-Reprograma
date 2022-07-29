@@ -9,7 +9,7 @@
 # 🚀 Começando
 
 # Tema
-Levando em consideração a trajetória que trilhamos, desde a decisão de nos jogar em uma área nova, processo seletivo e semanas de lutas/dedicação, essa API vai expressar em forma de música o que cada aluna da ON16 - Back-end sentiu durante o processo, e como finaliza essa etapa com a Reprograma.
+Levando em consideração a trajetória que trilhamos, desde a decisão de nos jogar em uma área nova, processo seletivo e semanas de lutas/dedicação, essa API vai expressar em forma de música o que cada aluna da ON16 - Back-end sentiu durante o processo, e como finaliza essa etapa com a Reprograma. O tema seria "Músicas que inspiram" e que, consequentemente, resumem sentimentos do final do Reprograma. A partir disso,o projeto resulme em criar uma API que liste o “nome da música”, “cantor” e “nome da aluna reprograma que escolheu a música”, relacionando ao banco de dados MongoDB.
 
 
 ## Tecnologias utilizadas
@@ -29,11 +29,10 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
 
 # ⚙️ Executando 
 ## 📋 Pré-requisitos
+
  * Caso queira baixar o código: Fazer um fork do projeto, fazer um clone para a máquina e baixar as dependências do package.json 
 
-* É possível também utilizar as rotas no Postman a partir do endereço: https://projetoreprograma29.herokuapp.com/ 
-
-.
+ * É possível também utilizar as rotas no Postman a partir do endereço: https://projetoreprograma29.herokuapp.com/ 
 
 
 ## 📋 Ação
