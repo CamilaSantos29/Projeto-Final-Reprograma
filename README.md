@@ -1,4 +1,6 @@
-# “Projeto final Reprograma – Back-End : Músicas que inspiram"
+![todas em tech](https://user-images.githubusercontent.com/88860081/181814231-6ef93baf-924a-4af4-b786-437dde7d9191.png)
+
+# “Projeto final Reprograma – Back-end : Músicas que inspiram"
 
 <p> Esse projeto visa demonstrar todo o conhecimento adquirido durante o curso da Reprograma com foco em Back-end (Node.js), assim como a capacidade criar uma API- CRUD com arquitetura MVC, acrescentando teste unitário em Jes. </p>
 
@@ -6,7 +8,7 @@
 # 🚀 Começando
 
 # Tema
-Levando em consideração a trajetória que trilhamos, desde a decisão de nos jogar em uma área nova, processo seletivo e semanas de lutas/dedicação, essa API vai expressar em forma de música o que cada aluna da ON16 - Back-End sentiu durante o processo, e como finaliza essa etapa com a Reprograma.
+Levando em consideração a trajetória que trilhamos, desde a decisão de nos jogar em uma área nova, processo seletivo e semanas de lutas/dedicação, essa API vai expressar em forma de música o que cada aluna da ON16 - Back-end sentiu durante o processo, e como finaliza essa etapa com a Reprograma.
 
 
 ## Tecnologias utilizadas
