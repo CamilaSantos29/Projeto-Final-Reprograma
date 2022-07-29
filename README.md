@@ -1,5 +1,5 @@
  ##
-![todas em tech](https://user-images.githubusercontent.com/88860081/181814231-6ef93baf-924a-4af4-b786-437dde7d9191.png =250x)
+![todas em tech](https://user-images.githubusercontent.com/88860081/181814231-6ef93baf-924a-4af4-b786-437dde7d9191.png width="200")
 
 # “Projeto final Reprograma – Back-end : Músicas que inspiram"
 
