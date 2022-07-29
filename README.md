@@ -3,7 +3,7 @@
 
 # “Projeto final Reprograma – Back-end : Músicas que inspiram"
 
-<p> Esse projeto visa demonstrar todo o conhecimento adquirido durante o curso da Reprograma com foco em Back-end (Node.js), assim como a capacidade criar uma API- CRUD com arquitetura MVC, acrescentando teste unitário em Jest. </p>
+<p> Esse projeto visa demonstrar todo o conhecimento adquirido durante o curso da Reprograma com foco em Back-end (Node.js), assim como a capacidade criar uma API- CRUD com arquitetura MVC, uso de banco de dados MongoDB e acrescentando teste unitário em Jest. </p>
 
 
 # 🚀 Começando
