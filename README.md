@@ -58,16 +58,16 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
 
 ## Rotas
 
-# GET:
+### GET:
 ![Postman_Dd7uHe3Zy6](https://user-images.githubusercontent.com/88860081/181812365-232beddb-89a6-4736-aea9-64dc609b8420.gif)
-
-# POST:
+_______________________________________________________________________________________________________________________________________
+### POST:
 ![Postman_E4wdUqjK7C](https://user-images.githubusercontent.com/88860081/181812434-26c14233-fac1-4bbe-afa1-3a7c1eaa65df.gif)
-
-# PUT:
+_______________________________________________________________________________________________________________________________________
+### PUT:
 ![Postman_zkn6IOi6CP](https://user-images.githubusercontent.com/88860081/181812526-ca150651-c5f1-4083-b737-7234a5d83932.gif)
-
-# DELETE:
+_______________________________________________________________________________________________________________________________________
+### DELETE:
 ![Postman_wzhODtLlUs](https://user-images.githubusercontent.com/88860081/181812568-5763a888-3a31-42e0-87ca-2d42486e17de.gif)
 
 
@@ -80,6 +80,6 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
 
 
 - Linkedin  [Camila Santos](https://www.linkedin.com/in/camila-o-santos/ )
-- E-mail [camila8925@hotmail.com]
+- E-mail [kmillaana29@gmail.com]
 ---
 
