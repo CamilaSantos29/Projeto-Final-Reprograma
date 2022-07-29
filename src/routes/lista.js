@@ -2,11 +2,11 @@ const express = require("express");
 const controller = require("../controllers/listaController.js");
 const router = express.Router();
 
-router.get("/all", controller.getAllLista);
+router.get("/allMusics", controller.getAllLista);
 router.get("/:id", controller.getLista);
-router.post("/", controller.createItem);
-router.put("/:id", controller.updateLista);
-router.delete("/:id", controller.deleteLista);
+router.post("/createmusic", controller.createItem);
+router.put("/updatemusic/:id", controller.updateLista);
+router.delete("/deletemusic/:id", controller.deleteLista);
 
 
 module.exports = router;
