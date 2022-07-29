@@ -38,17 +38,17 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
 ## 📋 Ação
  1-Poderá verificar as 5 rotas em funcionamento;
 
- 2- Utilizar a rota get("/allMusics") para checar todas músicas escolhidas pelas alunas Reprograma
+ 2- Utilizar a rota GET("/allMusics") para checar todas músicas escolhidas pelas alunas Reprograma
 
- 3-  Utilizar a rota get("/:id") para checar todas música por id escolhida pelas alunas Reprograma
+ 3-  Utilizar a rota GET("/:id") para checar todas música por id escolhida pelas alunas Reprograma
 
- 4-  Utilizar a rota post("/createmusic") para acrescentar uma nova música escolhida por uma aluna Reprograma
+ 4-  Utilizar a rota POST("/createmusic") para acrescentar uma nova música escolhida por uma aluna Reprograma
 
- 5-  Utilizar a rota put("/updatemusic/:id"") para atualizar os campos relacionados a música escolhida por uma aluna Reprograma
+ 5-  Utilizar a rota PUT("/updatemusic/:id"") para atualizar os campos relacionados a música escolhida por uma aluna Reprograma
 
- 6- Utilizar a rota put("/deletemusic/:id"") para excluir uma música escolhida por uma aluna Reprograma
+ 6- Utilizar a rota DELETE("/deletemusic/:id"") para excluir uma música escolhida por uma aluna Reprograma
 
-  7- Também, uma vez com o código na máquina, é possível rodar o teste unitário em Jest para garantir que o código está correspondendo ao proposto com sucesso.
+ 7- Também, uma vez com o código na máquina, é possível rodar o teste unitário em Jest para garantir que o código está correspondendo ao proposto com sucesso.
   
 
 # ⚙️ Resultado final
