@@ -61,6 +61,8 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
 
 ## Rotas
 
+Segue abaixo como ficou cada rota:
+
 ### GET:
 ![Postman_Dd7uHe3Zy6](https://user-images.githubusercontent.com/88860081/181812365-232beddb-89a6-4736-aea9-64dc609b8420.gif)
 _______________________________________________________________________________________________________________________________________
