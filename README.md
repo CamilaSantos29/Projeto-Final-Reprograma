@@ -48,6 +48,7 @@ $ npm install
 
 # Executar o servidor
 $ npm start
+```
 
 
 ## 📋 Ação
