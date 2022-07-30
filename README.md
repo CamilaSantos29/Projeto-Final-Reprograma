@@ -52,19 +52,22 @@ $ npm start
 
 
 ## 📋 Ação
- 1-Poderá verificar as 5 rotas em funcionamento;
 
- 2- Utilizar a rota GET("/allMusics") para checar todas músicas escolhidas pelas alunas Reprograma
+#### Rotas/Endpoints
 
- 3-  Utilizar a rota GET("/:id") para checar todas música por id escolhida pelas alunas Reprograma
+| Rotas  Candidates                        |                                                               |
+| ---------------------------------------  | ------------------------------------------------------------- | 
+| GET/allMusics                            | Checar todas músicas escolhidas pelas alunas Reprograma       |
+| GET/:id                                    Checar todas música por id escolhida pelas alunas Reprograma  |
+| POST/createmusic                         | Cadastrar uma nova música escolhida por uma aluna Reprograma  |
+| PUT/updatemusic/:id                      | Alterar dados música escolhida por uma aluna Reprograma       |
+| DELETE/dletemusic/:id                    | Excluir o currículo                                           |
 
- 4-  Utilizar a rota POST("/createmusic") para acrescentar uma nova música escolhida por uma aluna Reprograma
+### Test Jest
 
- 5-  Utilizar a rota PUT("/updatemusic/:id"") para atualizar os campos relacionados a música escolhida por uma aluna Reprograma
-
- 6- Utilizar a rota DELETE("/deletemusic/:id"") para excluir uma música escolhida por uma aluna Reprograma
-
- 7- Também, uma vez com o código na máquina, é possível rodar o teste unitário em Jest para garantir que o código está correspondendo ao proposto com sucesso.
+- Instalar: ``` bash npm install --save-exact jest@28.1.0 --save-dev ```
+- Adicionar package.json: ``` bash "test:watch": "jest --watchAll" ```
+- Rodar no terminal: ``` bash npm run test:watch ```
   
 
 # ⚙️ Resultado final
