@@ -65,9 +65,9 @@ $ npm start
 
 ### Test Jest
 
-- Instalar: ``` bash npm install --save-exact jest@28.1.0 --save-dev ```
-- Adicionar package.json: ``` bash "test:watch": "jest --watchAll" ```
-- Rodar no terminal: ``` bash npm run test:watch ```
+- Instalar: ```  npm install --save-exact jest@28.1.0 --save-dev ```
+- Adicionar package.json: ```  "test:watch": "jest --watchAll" ```
+- Rodar no terminal: ```  npm run test:watch ```
   
 
 # ⚙️ Resultado final
