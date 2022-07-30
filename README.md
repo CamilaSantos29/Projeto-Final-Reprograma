@@ -58,10 +58,10 @@ $ npm start
 | Rotas  Candidates                        |                                                               |
 | ---------------------------------------  | ------------------------------------------------------------- | 
 | GET/allMusics                            | Checar todas músicas escolhidas pelas alunas Reprograma       |
-| GET/:id                                    Checar todas música por id escolhida pelas alunas Reprograma  |
+| GET/:id                                  | Checar todas música por id escolhida pelas alunas Reprograma  |
 | POST/createmusic                         | Cadastrar uma nova música escolhida por uma aluna Reprograma  |
 | PUT/updatemusic/:id                      | Alterar dados música escolhida por uma aluna Reprograma       |
-| DELETE/dletemusic/:id                    | Excluir o currículo                                           |
+| DELETE/deletemusic/:id                    | Excluir o currículo                                           |
 
 ### Test Jest
 
