@@ -12,7 +12,7 @@
 Levando em consideração a trajetória que trilhamos, desde a decisão de nos jogar em uma área nova, processo seletivo e semanas de lutas/dedicação, essa API vai expressar em forma de música o que cada aluna da ON16 - Back-end sentiu durante o processo, e como finaliza essa etapa com a Reprograma. O tema seria "Músicas que inspiram" e que, consequentemente, resumem sentimentos do final do Reprograma. A partir disso,o projeto resulme em criar uma API que liste o “nome da música”, “cantor” e “nome da aluna reprograma que escolheu a música”, relacionando ao banco de dados MongoDB.
 
 
-## Tecnologias utilizadas
+## Tecnologias e pacotes utilizados
    * Node: v14.17.6
    * "nodemon": "^2.0.19"
    * "bcrypt": "^5.0.1",
@@ -33,6 +33,19 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
  * Caso queira baixar o código: Fazer um fork do projeto, fazer um clone para a máquina e baixar as dependências do package.json 
 
  * É possível também utilizar as rotas no Postman a partir do endereço: https://projetoreprograma29.herokuapp.com/ 
+
+## Instalação
+# Clonar o repositório
+$ git clone https://github.com/CamilaSantos29/Projeto_Final-Reprograma-Back-end.git
+
+# Entrar na pasta do repositório
+$ cd reprograma-projetofinal
+
+# Instalar as dependências
+$ npm install
+
+# Executar o servidor
+$ npm start
 
 
 ## 📋 Ação
