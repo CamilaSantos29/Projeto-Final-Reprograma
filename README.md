@@ -35,6 +35,8 @@ Levando em consideração a trajetória que trilhamos, desde a decisão de nos j
  * É possível também utilizar as rotas no Postman a partir do endereço: https://projetoreprograma29.herokuapp.com/ 
 
 ## Instalação
+
+```bash
 # Clonar o repositório
 $ git clone https://github.com/CamilaSantos29/Projeto_Final-Reprograma-Back-end.git
 
