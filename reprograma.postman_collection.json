@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "884405af-6334-48a7-a39f-ad03e5fce427",
+		"name": "reprograma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17641715"
+	},
+	"item": [
+		{
+			"name": "consulta alunas",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"function musicasReprograma() {\r",
+							"\r",
+							"    var musicasReprograma = [\"633a55bb0452f43aec11ebb2\", \"62e3f1007c84d7455e1db673\",\"62e1ce61db8f503ab50dd8f1\",\r",
+							"        \"62df5006b993a01d933a99f5\"];\r",
+							"\r",
+							"    var randomItem = musicasReprograma[Math.floor(Math.random() * musicasReprograma.length)];\r",
+							"\r",
+							"    return randomItem;\r",
+							"\r",
+							"    }\r",
+							"    pm.variables.set(\"MusicasReprograma\", musicasReprograma());\r",
+							"    \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/{{MusicasReprograma}}/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{MusicasReprograma}}",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
